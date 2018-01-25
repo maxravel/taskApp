@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+.container{
+    background-color: #999;
+    max-width:800px;
+    margin:auto;
+    height:100vh;
+}
+
+h2{
+    padding:20px;
+    font-size:40px;
+}
+
+form{
+    margin:auto;
+}
+
+input{
+    margin:20px;
+}
+
+#tas{
+    padding:5px;
+    border: solid green 2px;
+    width:300px;
+    font-size:15px;
+}
+
+#sub{
+    padding:10px;
+    background:rgb(0, 255, 106) 1px;
+    border:solid green 1px;
+    font-weight:bold;
+    font-size:15px;
+}
+
+#sub:hover{
+    padding:10px;
+    background:white;
+    border:solid green 1px;
+    cursor: pointer;
+}
+
+ul{
+    list-style:none;
+    margin:20px;
+}
+
+footer{
+    position:absolute;
+    bottom:0px;
+    left:30%;
+    right:30%;
+}
+
