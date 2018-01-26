@@ -49,6 +49,13 @@ input{
 ul{
     list-style:none;
     margin:20px;
+    font-size:25px;
+}
+
+li{
+    background-color:yellow;
+    margin:10px;
+    border:solid 2px green;
 }
 
 footer{
@@ -56,5 +63,21 @@ footer{
     bottom:0px;
     left:30%;
     right:30%;
+}
+
+.delete{
+    height:5px;
+    width:5px;
+    /* border-radius:50%; */
+    /* background-color: red; */
+}
+
+a{
+    text-decoration:none;
+    float:right;
+    padding-right:50px;
+    font-size:25px;
+    color:red;
+    font-weight: bold;
 }
 
