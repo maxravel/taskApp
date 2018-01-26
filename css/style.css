@@ -65,17 +65,17 @@ footer{
     right:30%;
 }
 
-.delete{
+/* .delete{
     height:5px;
     width:5px;
-    /* border-radius:50%; */
-    /* background-color: red; */
-}
+    border-radius:50%; 
+    background-color: red;
+} */
 
 a{
     text-decoration:none;
     float:right;
-    padding-right:50px;
+    margin-right:50px;
     font-size:25px;
     color:red;
     font-weight: bold;
