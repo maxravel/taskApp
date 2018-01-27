@@ -37,7 +37,7 @@ function getTasks(e){
         //add class
         link.className='delete';
         //add div to link 
-        link.innerHTML='<a href="#" class="del">x</a>';
+        link.innerHTML='<a href="#" class="del"></a>';
         //append link to li
         li.appendChild(link);
         //append li to ul
@@ -65,7 +65,7 @@ function addTask(e){
     //add class
     link.className='delete';
     //add div to link 
-    link.innerHTML='<a href="#" class="del">x</a>';
+    link.innerHTML='<a href="#" class="del"></a>';
     //append link to li
     li.appendChild(link);
     //append li to ul
@@ -104,10 +104,10 @@ function storeTaskInLocalStorage(task){
 function removeTask(e){
     if(e.target.classList.contains('del')){
         e.target.parentElement.parentElement.remove();
-    //remove from Local Storage
-    removeTaskFromLocalStorage(e.target.parentElement.parentElement);
-    }
 
+        //remove from Local Storage
+        removeTaskFromLocalStorage(e.target.parentElement.parentElement);
+    }
 }
 
 //remove from local storage
@@ -120,10 +120,13 @@ function removeTaskFromLocalStorage(taskItem){
         tasks=JSON.parse(localStorage.getItem('tasks'));
     }
     tasks.forEach(function(task, index){
+        // console.log(taskItem.textContent);
+        // console.log(task);
         if(taskItem.textContent===task){
             tasks.splice(index, 1);
+            // console.log(tasks[1]);
         }
     });
-
+    //console.log(tasks);
     localStorage.setItem('tasks', JSON.stringify(tasks));
 }

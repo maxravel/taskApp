@@ -1,8 +1,9 @@
 make structure of app; done   
-style structure; do more   
 make adding li; dome  
-make removing li; done  
-make removing all task button;  
-add filter;  
+make removing li; done   
 use localStorage;  done  
-remove from localStorage;  
+remove from localStorage;  done  
+style structure; do more 
+add filter;  
+make removing all task button;  
+work on x button;  
