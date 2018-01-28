@@ -2,18 +2,22 @@
     margin:0px;
     padding:0px;
     text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;   
 }
 
 .container{
-    background-color: #999;
+    background-color: rgb(214, 214, 214);
     max-width:800px;
     margin:auto;
-    height:100vh;
+    min-height:93vh;
+    /* margin-bottom:0px; */
+    padding:5px;
 }
 
 h2{
     padding:20px;
-    font-size:40px;
+    font-size:45px;
+    font-family: 'Pacifico', cursive;
 }
 
 form{
@@ -26,7 +30,7 @@ input{
 
 #tas{
     padding:5px;
-    border: solid green 2px;
+    border: solid rgb(0, 255, 106) 1px;
     width:300px;
     font-size:15px;
 }
@@ -53,32 +57,44 @@ ul{
 }
 
 li{
-    background-color:yellow;
+    background-color:rgb(165, 165, 165);
     margin:10px;
-    border:solid 2px green;
+    border:solid 1px rgb(0, 255, 106);
 }
 
 footer{
-    position:absolute;
-    bottom:0px;
+    padding-top:6px;
+    position:static;
+    /* bottom:1px; */
     left:30%;
     right:30%;
+    /* font-family: 'Pacifico', cursive; */
 }
 
- .del{
-    height:25px;
-    width:25px;
-    border-radius:50%; 
-    background-color: red;
+/* @media screen and (min-height=100vh) {
+    footer{
+        position:static;
+    }
+} */
+
+.del{
+    margin-top:3px;
+    height:24px;
+    width:24px;
+    /* border-radius:50%;  */
+    /* background-color: red; */
+    background:url(../img/done2.jpg);
+    background-size:cover;
 } 
 
-
-a{
+a{  
     text-decoration:none;
     float:right;
-    margin-right:50px;
+    margin-right:40px;
+    /* margin-left:20px; */
     font-size:25px;
     color:red;
     font-weight: bold;
+    /* position:fixed; */
 }
 

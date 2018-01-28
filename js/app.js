@@ -37,7 +37,7 @@ function getTasks(e){
         //add class
         link.className='delete';
         //add div to link 
-        link.innerHTML='<a href="#" class="del"></a>';
+        link.innerHTML='<a href="#" class="dele"><div class="del"></del></a>';
         //append link to li
         li.appendChild(link);
         //append li to ul
@@ -65,7 +65,7 @@ function addTask(e){
     //add class
     link.className='delete';
     //add div to link 
-    link.innerHTML='<a href="#" class="del"></a>';
+    link.innerHTML='<a href="#" class="dele"><div class="del"></del></a>';
     //append link to li
     li.appendChild(link);
     //append li to ul
