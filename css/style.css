@@ -10,13 +10,12 @@
     max-width:800px;
     margin:auto;
     min-height:93vh;
-    /* margin-bottom:0px; */
     padding:5px;
 }
 
 h2{
     padding:20px;
-    font-size:45px;
+    font-size:50px;
     font-family: 'Pacifico', cursive;
 }
 
@@ -28,11 +27,18 @@ input{
     margin:20px;
 }
 
+
 #tas{
     padding:5px;
     border: solid rgb(0, 255, 106) 1px;
     width:300px;
     font-size:15px;
+}
+
+@media screen and (max-width: 500px) {
+    #tas{
+        width:200px;
+    }
 }
 
 #sub{
@@ -65,36 +71,19 @@ li{
 footer{
     padding-top:6px;
     position:static;
-    /* bottom:1px; */
     left:30%;
     right:30%;
-    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Pacifico', cursive; 
 }
 
-/* @media screen and (min-height=100vh) {
-    footer{
-        position:static;
-    }
-} */
-
-.del{
+.dele{
     margin-top:3px;
     height:24px;
     width:24px;
-    /* border-radius:50%;  */
-    /* background-color: red; */
     background:url(../img/done2.jpg);
     background-size:cover;
-} 
-
-a{  
-    text-decoration:none;
+    cursor: pointer;
     float:right;
     margin-right:40px;
-    /* margin-left:20px; */
-    font-size:25px;
-    color:red;
-    font-weight: bold;
-    /* position:fixed; */
-}
-
+    /* font-size:25px; */
+} 

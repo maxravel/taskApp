@@ -37,7 +37,7 @@ function getTasks(e){
         //add class
         link.className='delete';
         //add div to link 
-        link.innerHTML='<a href="#" class="dele"><div class="del"></del></a>';
+        link.innerHTML='<a href="#" class="dele"></a>';
         //append link to li
         li.appendChild(link);
         //append li to ul
@@ -65,7 +65,7 @@ function addTask(e){
     //add class
     link.className='delete';
     //add div to link 
-    link.innerHTML='<a href="#" class="dele"><div class="del"></del></a>';
+    link.innerHTML='<a href="#" class="dele"></a>';
     //append link to li
     li.appendChild(link);
     //append li to ul
@@ -102,7 +102,7 @@ function storeTaskInLocalStorage(task){
 //remove tasks
 
 function removeTask(e){
-    if(e.target.classList.contains('del')){
+    if(e.target.classList.contains('dele')){
         e.target.parentElement.parentElement.remove();
 
         //remove from Local Storage

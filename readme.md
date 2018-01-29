@@ -1,3 +1,5 @@
+#Simple to do app 
+
 make structure of app; done   
 make adding li; dome  
 make removing li; done   
@@ -7,4 +9,5 @@ work on x button; done
 style structure; satisfactory  
 add filter;  
 make removing all task button;  
+work on mobile?;  
 
