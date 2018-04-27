@@ -34,8 +34,6 @@ function getTasks(e){
         li.appendChild(document.createTextNode(task));
         //add delete
         const link=document.createElement('a');
-        //add class
-        link.className='delete';
         //add div to link 
         link.innerHTML='<a href="#" class="dele"></a>';
         //append link to li
@@ -62,8 +60,6 @@ function addTask(e){
     li.appendChild(document.createTextNode(taskInput.value));
     //add delete
     const link=document.createElement('a');
-    //add class
-    link.className='delete';
     //add div to link 
     link.innerHTML='<a href="#" class="dele"></a>';
     //append link to li
@@ -131,5 +127,5 @@ function removeTaskFromLocalStorage(taskItem){
 
 
 // sessionStorage.setItem(1,1);
-// sessionStorage.setItem(1,2);
-// sessionStorage.setItem(1,3);
+// sessionStorage.setItem(2,2);
+// sessionStorage.setItem(3,3);
